@@ -8,14 +8,14 @@
 
 int main(void)
 {
-char c;
-for (c = 0; c < 9; c++)
+int i;
+for (i = 48, i < 58, i++)
 {
-putchar(c + '0');
+putchar(i);
 }
-for (c = 'a'; c <= 'f'; c++)
+for (i = 97, i < 103, i++)
 {
-putchar(c);
+putchar(i);
 }
 putchar('\n');
 return (0);
