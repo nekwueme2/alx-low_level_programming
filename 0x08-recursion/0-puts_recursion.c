@@ -4,7 +4,7 @@
  * _puts_recursion function is used to print a string *s
  * and followed by a new line
  *
- * Return (0)
+ * Return: Always 0 (Success)
  */
 
 void _puts_recursion(char *s)
