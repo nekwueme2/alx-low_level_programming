@@ -1,12 +1,9 @@
 #include "main.h"
-
 /**
- * The _puts_recursion function is used to print a string *s
- * and followed by a new line
- *
+ * _puts_recursion - function like puts();
+ * @s: input
  * Return: Always 0 (Success)
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s)
